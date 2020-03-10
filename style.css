@@ -1,3 +1,35 @@
 .logo-header{
     height: 25px;
 }
+.searchBox{
+    background: rgba(231,55,39,1);
+    background: -moz-linear-gradient(left, rgba(231,55,39,1) 0%, rgba(230,138,39,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(231,55,39,1)), color-stop(100%, rgba(230,138,39,1)));
+    background: -webkit-linear-gradient(left, rgba(231,55,39,1) 0%, rgba(230,138,39,1) 100%);
+    background: -o-linear-gradient(left, rgba(231,55,39,1) 0%, rgba(230,138,39,1) 100%);
+    background: -ms-linear-gradient(left, rgba(231,55,39,1) 0%, rgba(230,138,39,1) 100%);
+    background: linear-gradient(to right, rgba(231,55,39,1) 0%, rgba(230,138,39,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e73727', endColorstr='#e68a27', GradientType=1 );
+    padding: 16px 16px 80px 16px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#searchDoc{
+    background-color: transparent;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 0px;
+    color: #fff;
+}
+.form-control:focus {
+    color: #fff;
+    background-color: #fff;
+    border-color: #80bdff !important;
+    outline: 0;
+    box-shadow: none;
+}
+#searchDoc::placeholder{
+    color:#fff;
+}
