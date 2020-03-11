@@ -33,3 +33,7 @@ body{
 #searchDoc::placeholder{
     color:#fff;
 }
+
+.lastNews{
+    margin-top: -40px;
+}
