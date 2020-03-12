@@ -23,27 +23,67 @@
             </a>
         </nav>
         
-        <div class="searchBox">
-            <div class="form-group container">
+           <div class="searchBox">
+               <div class="form-group container">
                 
                 <input type="text" class="form-control" id="searchDoc" placeholder="Cerca nei documenti">
                 
-            </div>
-        </div>
+               </div>
+           </div>
         <div class="container lastNews">
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <div>
-                
-            </div>
+               <div class="videoWrapper">
+                <!-- Copy & Pasted from YouTube -->
+                <iframe width="150" height="150" src="http://www.youtube.com/embed/n_dZNLr2cME?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+               </div class ="someNews">
 
+            <p>Lorem ipsum</p>
+            <p>Lorem ipsum</p>
+            <p>Lorem ipsum</p>
+            <p>Lorem ipsum</p>
+            <p>Lorem ipsum</p>
+            <p>Lorem ipsum</p>
+            <p>Lorem ipsum</p>
+           
+            
         </div>
+        <div>
+          <div class="container tab">
+            <button class="tablinks" onclick="openCity(event, 'News')">News</button>
+            <button class="tablinks" onclick="openCity(event, 'Circolari')">Circolari</button>
+            <button class="tablinks" onclick="openCity(event, 'Rassegna stampa')">Rassegna stampa</button>
+          </div>
+          
+         
+          <div id="News" class="tabcontent">
+            <h3>News</h3>
+            <p>Lorem ipsum</p>
+          </div>
+          
+          <div id="Circolari" class="tabcontent">
+            <h3>Circolari</h3>
+            <p>Circolari</p>
+          </div>
+          
+          <div id="Rassegna stampa" class="tabcontent">
+            <h3>Rassegna stampa</h3>
+            <p>Rassegna stampa</p>
+          </div>
+         
+         </div>
+         <div class="container newsView"> 
+            <div class="colonna">
+             <article role="article" about="titolo che descrive prodotto" class="AutoCard">
+                <div class="body">
+                  <div class="cover" style="background-image:image() ;">
+                  <a href="#"></a>
+                  </div>
+                </div>
+        
+             </article>
+            </div>
+         </div>
 
+         
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
